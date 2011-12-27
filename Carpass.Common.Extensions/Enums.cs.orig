@@ -5,10 +5,14 @@ using System.Text;
 
 namespace System
 {
-/// Test Clone 2
+/// Test Clone
     public static class Enums
     {
+<<<<<<< HEAD
+/// Test 22
+=======
 /// Test 21
+>>>>>>> origin/Test2
         public static T Parse<T>(string name)
         {
             return (T)Enum.Parse(typeof(T), name);
