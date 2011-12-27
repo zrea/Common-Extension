@@ -5,10 +5,8 @@ using System.Text;
 
 namespace System
 {
-/// Test Clone 2
     public static class Enums
     {
-/// Test 21
         public static T Parse<T>(string name)
         {
             return (T)Enum.Parse(typeof(T), name);
