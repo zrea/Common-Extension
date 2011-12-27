@@ -1,0 +1,5 @@
+D:\PMP\Carpass.Common.Extensions\bin\Debug\Carpass.Common.Extensions.dll
+D:\PMP\Carpass.Common.Extensions\bin\Debug\Carpass.Common.Extensions.pdb
+D:\PMP\Carpass.Common.Extensions\obj\Debug\ResolveAssemblyReference.cache
+D:\PMP\Carpass.Common.Extensions\obj\Debug\Carpass.Common.Extensions.dll
+D:\PMP\Carpass.Common.Extensions\obj\Debug\Carpass.Common.Extensions.pdb
