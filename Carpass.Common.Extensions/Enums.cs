@@ -8,6 +8,7 @@ namespace System
 /// Test
     public static class Enums
     {
+/// Test 2
         public static T Parse<T>(string name)
         {
             return (T)Enum.Parse(typeof(T), name);
