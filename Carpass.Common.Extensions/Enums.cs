@@ -5,6 +5,7 @@ using System.Text;
 
 namespace System
 {
+/// Test
     public static class Enums
     {
         public static T Parse<T>(string name)
