@@ -5,12 +5,23 @@ using System.Text;
 
 namespace Carpass
 {
-    public static class LogManager 
+    public static class LogManager
     {
         static ILog _log;
-        public static ILog CurrentLog { get { return _log ?? (_log = new DefaultLog()); } private set { _log = value; } }
 
-        class DefaultLog:ILog
+        public static ILog CurrentLog
+        {
+            get 
+            { 
+                return _log ?? (_log = new DefaultLog());
+            }
+            private set 
+            { 
+                _log = value; 
+            }
+        }
+
+        class DefaultLog : ILog
         {
             ILog _log;
 
@@ -44,7 +55,7 @@ namespace Carpass
             }
             catch
             {
- 
+
             }
         }
 
