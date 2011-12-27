@@ -5,7 +5,7 @@ using System.Text;
 
 namespace System
 {
-/// Test
+/// Test Clone
     public static class Enums
     {
 /// Test 2
